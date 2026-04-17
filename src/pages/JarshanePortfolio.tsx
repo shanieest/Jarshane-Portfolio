@@ -1,3 +1,5 @@
+import hanjihyun from '../assets/hanjihyun.jpeg';
+
 export default function JarshanePortfolio() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-white p-6">
@@ -5,7 +7,7 @@ export default function JarshanePortfolio() {
         
         <div className="shrink-0 transition-transform hover:scale-105 duration-500">
           <img 
-            src="/jarshane.png" 
+            src={hanjihyun} 
             alt="Jarshane Tolentino" 
             className="w-64 h-80 object-cover border-4 border-slate-900" 
           />
