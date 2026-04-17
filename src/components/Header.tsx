@@ -10,8 +10,8 @@ export default function Header() {
     }`;
 
     return (
-    <header className="text-white p-6 overscroll-behavior-none ">
-        <nav className="flex items-center justify-between max-w-6xl mx-auto">
+    <header className="text-white p-6 overscroll-behavior-none flex left-0 top-0 w-full z-50 animate-in fade-in slide-in-from-top duration-1000">
+        <nav className="flex justify-between max-w-6xl mx-auto">
 
         <div className="flex gap-2">
             <NavLink to="/home" className={linkStyles}>
@@ -22,6 +22,12 @@ export default function Header() {
             </NavLink>
             <NavLink to="/contact" className={linkStyles}>
                 Contact
+            </NavLink>
+            <NavLink to="/projects" className={linkStyles}>
+                Projects
+            </NavLink>
+            <NavLink to="/resume" className={linkStyles}>
+                Resume
             </NavLink>
             </div>
         </nav>
