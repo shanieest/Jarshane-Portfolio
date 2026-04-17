@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
-    const linkStyles = ({ isActive }) => 
+    const linkStyles = ({ isActive }: { isActive: boolean }) => 
     `px-4 py-2 border-2 transition-all duration-200 uppercase text-xs font-black tracking-widest ${
         isActive 
         ? "bg-white text-slate-900 border-white" 
