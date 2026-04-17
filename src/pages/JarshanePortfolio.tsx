@@ -13,7 +13,7 @@ export default function JarshanePortfolio() {
 
         <div className="text-left animate-in fade-in slide-in-from-right duration-1000 delay-200">
           <h1 className="text-5xl font-black mb-2 uppercase tracking-tighter">
-            <span className="bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-purple-600">
+            <span className="bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-pink-600">
               Jarshane Tolentino
             </span>
           </h1>
